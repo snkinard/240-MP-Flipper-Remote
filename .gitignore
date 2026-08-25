@@ -1,0 +1,6 @@
+.ufbt/
+.vscode/
+.clang-format
+build/
+dist/
+compile_commands.json

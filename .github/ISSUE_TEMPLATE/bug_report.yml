@@ -1,0 +1,69 @@
+name: Bug report
+description: Report a reproducible problem with the app, pairing, or controls
+title: "[Bug]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post vulnerability details or private data.
+  - type: input
+    id: app_version
+    attributes:
+      label: App version or commit
+      placeholder: "Release or commit"
+    validations:
+      required: true
+  - type: input
+    id: flipper_firmware
+    attributes:
+      label: Flipper firmware
+      placeholder: "Firmware release and API version, when known"
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host
+      description: Include the OS version and hardware model.
+      placeholder: "Host OS and hardware"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start the app...
+        2. Pair...
+        3. Press...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the pairing or connection state and whether the problem is repeatable.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional details
+      description: Optional logs or screenshots. Remove private information before posting.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and removed private information.
+          required: true

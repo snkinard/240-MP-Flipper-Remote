@@ -1,0 +1,17 @@
+App(
+    appid="mp_240_remote",
+    name="240-MP Remote",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="mp_240_remote_app",
+    sources=["mp_240_remote.c", "remote_input_model.c"],
+    targets=["f7"],
+    stack_size=2 * 1024,
+    fap_version="0.1",
+    fap_category="Bluetooth",
+    fap_description="Control 240-MP over Bluetooth",
+    fap_author="Sam Kinard",
+    fap_weburl="https://github.com/snkinard/240-MP-Flipper-Remote",
+    fap_icon="mp_240_remote_10px.png",
+    fap_icon_assets="images",
+    fap_libs=["ble_profile"],
+)
