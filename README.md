@@ -2,7 +2,7 @@
 
 240-MP Remote is a standalone Flipper Zero Bluetooth controller for Anthony Caccese’s [240-MP](https://github.com/anthonycaccese/240-MP). It sends standard keyboard input over Bluetooth Low Energy, requiring no additional software or configuration on 240-MP hosts that support Bluetooth keyboards.
 
-This is an independent, unofficial community project. It is not affiliated with or endorsed by 240-MP, Anthony Caccese, or Flipper Devices.
+This is an independent, unofficial community project. It is not affiliated with or endorsed by Flipper Devices.
 
 ## Install
 
